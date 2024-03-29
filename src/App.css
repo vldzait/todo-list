@@ -1,0 +1,27 @@
+.todo-item {
+  margin-bottom: 5px;
+
+  input {
+    margin-right: 10px;
+  }
+
+  span {
+    font-size: 16px;
+    cursor: pointer;
+
+    &.completed {
+      text-decoration: line-through;
+      color: grey;
+    }
+  }
+}
+
+.todo-list {
+  max-width: 600px;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.isDone {
+  text-decoration-line: line-through;
+  opacity: 0.5;
+}
+
+li {
+  word-break: break-all;
+  list-style: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background: #EDEEF6;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+  span {
+      display: block;
+  }
+}

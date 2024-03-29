@@ -1,0 +1,40 @@
+.addForm {
+	margin-bottom: 10px;
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+
+	.addBlock {
+		display: flex;
+		font-size: 18px;
+		input {
+			padding: 8px;
+			margin-right: 10px;
+			width: 100%;
+			border: 2px solid #EDEEF6;
+			border-radius: 5px;
+		}
+
+		button {
+			padding: 8px 15px;
+			background-color: #3498db;
+			color: white;
+			border: 1px solid #3498db;
+			cursor: pointer;
+			border-radius: 5px;
+
+			&:hover {
+			background-color: #2980b9;
+			}
+		}
+	}
+}
+
+.error {
+	border: red 1px solid;
+}
+
+.errorMessage {
+	color: red;
+}
